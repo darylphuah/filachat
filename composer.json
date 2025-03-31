@@ -1,18 +1,24 @@
 {
-    "name": "jaocero/filachat",
+    "name": "darylphuah/filachat",
     "description": "FilaChat is a plugin for integrating real-time customer support chat into your application. Provides tools for both customer and agent chat interfaces, with features for managing and maintaining chat conversations.",
     "keywords": [
         "jaocero",
+        "darylphuah",
         "laravel",
         "filachat"
     ],
-    "homepage": "https://github.com/jaocero/filachat",
+    "homepage": "https://github.com/darylphuah/filachat",
     "support": {
-        "issues": "https://github.com/jaocero/filachat/issues",
-        "source": "https://github.com/jaocero/filachat"
+        "issues": "https://github.com/darylphuah/filachat/issues",
+        "source": "https://github.com/darylphuah/filachat"
     },
     "license": "MIT",
     "authors": [
+        {
+            "name": "Daryl Phuah",
+            "email": "daryl@simpleet.com",
+            "role": "Developer"
+        },
         {
             "name": "Jay-Are Ocero",
             "email": "199ocero@gmail.com",
@@ -20,7 +26,7 @@
         }
     ],
     "require": {
-        "php": "^8.1",
+        "php": ">=8.1",
         "filament/filament": "^3.0",
         "laravel/prompts": "^0.1.24",
         "livewire/livewire": "^3.5",
@@ -36,13 +42,13 @@
     },
     "autoload": {
         "psr-4": {
-            "JaOcero\\FilaChat\\": "src/",
-            "JaOcero\\FilaChat\\Database\\Factories\\": "database/factories/"
+            "Darylphuah\\FilaChat\\": "src/",
+            "Darylphuah\\FilaChat\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "JaOcero\\FilaChat\\Tests\\": "tests/"
+            "Darylphuah\\FilaChat\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -61,10 +67,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "JaOcero\\FilaChat\\FilaChatServiceProvider"
+                "Darylphuah\\FilaChat\\FilaChatServiceProvider"
             ],
             "aliases": {
-                "FilaChat": "JaOcero\\FilaChat\\Facades\\FilaChat"
+                "FilaChat": "Darylphuah\\FilaChat\\Facades\\FilaChat"
             }
         }
     },
