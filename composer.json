@@ -1,5 +1,5 @@
 {
-    "name": "darylphuah/filachat",
+    "name": "jaocero/filachat",
     "description": "FilaChat is a plugin for integrating real-time customer support chat into your application. Provides tools for both customer and agent chat interfaces, with features for managing and maintaining chat conversations.",
     "keywords": [
         "jaocero",
@@ -41,13 +41,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Darylphuah\\FilaChat\\": "src/",
-            "Darylphuah\\FilaChat\\Database\\Factories\\": "database/factories/"
+            "JaOcero\\FilaChat\\": "src/",
+            "JaOcero\\FilaChat\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Darylphuah\\FilaChat\\Tests\\": "tests/"
+            "JaOcero\\FilaChat\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -66,10 +66,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Darylphuah\\FilaChat\\FilaChatServiceProvider"
+                "JaOcero\\FilaChat\\FilaChatServiceProvider"
             ],
             "aliases": {
-                "FilaChat": "Darylphuah\\FilaChat\\Facades\\FilaChat"
+                "FilaChat": "JaOcero\\FilaChat\\Facades\\FilaChat"
             }
         }
     },
